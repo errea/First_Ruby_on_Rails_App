@@ -1,51 +1,77 @@
-# Ruby Capstone Project: Web Scraper.
+# Ruby on Rails App: Blog Application.
 
-> Ruby Capstone Project of Microverse, which students have to complete a real-world-like project within 72 hours according to [this project specifications](https://www.notion.so/microverse/Build-your-own-scraper-f54eaca54d8a4d758a5f0141468127a8)
+> [Collaborative project]
 
-I challenged myself to do a 3-in-1 Web Scraper, which allows users to parse all courses from udacity.com and jobs from indeed.com and remote.io into CSV file.
+This is the very first project I would build with Ruby on Rails. The main goal here is to make it up and running - and its to take about 14hours to carry out this project. Full task description:  https://www.theodinproject.com/courses/ruby-on-rails/lessons/ruby-on-rails-ruby-on-rails . and  [Find project specifications here](https://guides.rubyonrails.org/getting_started.html)
 
 ## Built With
 
 - Ruby
-- Nokogiri gem
-- HTTParty
+- webpack
+- Heroku
+- Sqlite
+- MVC pattern
+
+# Get Started
+> To get a local copy up and running follow these simple example steps.
+
+## Prerequisites
+- Vscode
+- Heroku CLI
+- Terminal
+- Linters Test
+- Rubocop style guide
+
+## Set up
+* Open your terminal and locate the folder you want to clone the repository.
+
+## Install
+
+Run the following command into your terminal:
+
+```console
+git clone https://github.com/errea/First_Ruby_on_Rails_App.git
+
+gem bundle install --without production
+```
 
 ## Project Structure
 
-```
-├── README.md
-├── bin
-│   └── main.rb
-└── lib
-    └── scraper.rb
-    └── udacity_scraper.rb
-    └── indeed_scraper.rb
-    └── remoteio_scraper.rb
-└── rspec
-    └── scraper_spec.rb
-    └── indeed_spec.rb
-    └── remoteio_spec.rb
-    └── udacity_spec.rb
-    └── spec_helper.rb
-```
-
-## Video Presentation
-Feel free to check out this [link](https://www.loom.com/share/4e3c2779510740759876c791aacf9868) for a 3min video walkthrough :)
+    ├── README.md
+    ├── bundle
+    │   └── main.rb
+    └── .github\workflows
+        └── linters.yml
+    └── app
+        └── assets
+        └── channels
+        └── controllers
+        └── helpers
+        └── jobs
+        └── mailers
+        └── models
+        └── views    
+    └── bin
+    └── config
+    └── db
+    └──log
+    └── bin
+    └── public
+    └── storage
+    └──test
 
 ## Deployment
-1) Git clone this repo and cd the to the `web_scraper` directory.
-2) Run `bundle install` in command line to install Nokogiri and HTTParty Gem.
-3) Run `bin/main.rb`.
-4) Input either 'udacity', 'indeed', or 'remote.io' and follows the respective commands.
-5) Tada! 'udacity_courses.csv', 'indeed_jobs.csv', or 'remote_io.csv' would be created at the root directory respectively :)
+1) Git clone this repo and cd the to the `Blog app` directory.
+2) Run `rails server` in command line to open the application server in your browser via http://localhost:3000 or something similar
+3) Run `heroku start`.
+4) heroku run
+5) heroku run rails db:migrate
+6) git push heroku main
+7) heroku run console
 
-## Run tests
-1) Git clone this repo and cd the to the `web_scraper` directory.
-2) Install rspec with `gem install rspec`.
-3) Run `rspec` in Command Line.
-4) You would see failures because all 3 scraped files haven't been created yet.
-5) To solve it, run `ruby bin/main.rb` and input 'udacity', 'indeed', and 'remote.io' for every execution.
-6) Run `rspec` in CLI again. The test cases would success upon each file created :)
+## Live Preview
+1) Git clone this repo and cd the to the `Blog app` directory.
+2) Open the link for live preview `https://first-app-rails-blog.herokuapp.com/`
 
 ## Authors
 
@@ -59,7 +85,7 @@ Feel free to check out this [link](https://www.loom.com/share/4e3c27795107407598
 
 Contributions, issues and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/errea/Ruby_Capstone_Scrapper/issues).
+Feel free to check the [issues page](https://github.com/errea/First_Ruby_on_Rails_App/issues).
 
 ## Show your support
 
@@ -68,11 +94,6 @@ Give a ⭐️ if you like this project!
 ## Acknowledgments
 
 - Microverse
-- Nokogiri gem
-- HTTParty Parser
-- Udacity.com
-- Indeed.com
-- Remote.io
 
 ## 📝 License
 
