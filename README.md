@@ -2,60 +2,76 @@
 
 > [Collaborative project]
 
-This is the very first project I would build with Ruby on Rails. The main goal here is to make it up and running - and its to tak about 14hours to carry out this project. Full task description:  https://www.theodinproject.com/courses/ruby-on-rails/lessons/ruby-on-rails-ruby-on-rails . and  [Find project specifications here](https://guides.rubyonrails.org/getting_started.html)
+This is the very first project I would build with Ruby on Rails. The main goal here is to make it up and running - and its to take about 14hours to carry out this project. Full task description:  https://www.theodinproject.com/courses/ruby-on-rails/lessons/ruby-on-rails-ruby-on-rails . and  [Find project specifications here](https://guides.rubyonrails.org/getting_started.html)
 
 ## Built With
 
 - Ruby
-- webpark
+- webpack
 - Heroku
 - Sqlite
+- MVC pattern
 
-## Get Started
+# Get Started
+> To get a local copy up and running follow these simple example steps.
 
 ## Prerequisites
 - Vscode
 - Heroku CLI
 - Terminal
+- Linters Test
+- Rubocop style guide
 
 ## Set up
+* Open your terminal and locate the folder you want to clone the repository.
+
+### Install
+
+Run the following command into your terminal:
+
+```console
+git clone git@github.com:JAAR91/Web_Scraper_Ruby.git
+
+gem bundle install
+```
 
 ## Project Structure
 
-```
-├── README.md
-├── bundle
-│   └── main.rb
-└── .github\workflows
-    └── linters.yml
-└── app
-    └── assets
-    └── channels
-    └── controllers
-    └── helpers
-    └── jobs
-    └── mailers
-    └── models
-    └── views    
-└── bin
-└── config
-└── db
-└──log
-└── bin
-└── public
-└── storage
-└──test
-
-## Install
+    ├── README.md
+    ├── bundle
+    │   └── main.rb
+    └── .github\workflows
+        └── linters.yml
+    └── app
+        └── assets
+        └── channels
+        └── controllers
+        └── helpers
+        └── jobs
+        └── mailers
+        └── models
+        └── views    
+    └── bin
+    └── config
+    └── db
+    └──log
+    └── bin
+    └── public
+    └── storage
+    └──test
 
 ## Deployment
 1) Git clone this repo and cd the to the `Blog app` directory.
-2) Run `rails server` in command line to open local host
+2) Run `rails server` in command line to open the application server in your browser via http://localhost:3000 or something similar
 3) Run `heroku start`.
+4) heroku run
+5) heroku run rails db:migrate
+6) git push heroku main
+7) heroku run console
 
 ## Live Preview
-1) Git clone this repo and cd the to the `web_scra` directory.
-2) Run the link for live preview `https://first-app-rails-blog.herokuapp.com/`.
+1) Git clone this repo and cd the to the `Blog app` directory.
+2) Run the link for live preview `https://first-app-rails-blog.herokuapp.com/`
 
 ## Authors
 
