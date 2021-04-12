@@ -32,7 +32,7 @@ Run the following command into your terminal:
 ```console
 git clone https://github.com/errea/First_Ruby_on_Rails_App.git
 
-gem bundle install
+gem bundle install --without production
 ```
 
 ## Project Structure
@@ -71,7 +71,7 @@ gem bundle install
 
 ## Live Preview
 1) Git clone this repo and cd the to the `Blog app` directory.
-2) Run the link for live preview `https://first-app-rails-blog.herokuapp.com/`
+2) Open the link for live preview `https://first-app-rails-blog.herokuapp.com/`
 
 ## Authors
 
