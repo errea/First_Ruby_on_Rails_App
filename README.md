@@ -25,12 +25,12 @@ This is the very first project I would build with Ruby on Rails. The main goal h
 ## Set up
 * Open your terminal and locate the folder you want to clone the repository.
 
-### Install
+## Install
 
 Run the following command into your terminal:
 
 ```console
-git clone git@github.com:JAAR91/Web_Scraper_Ruby.git
+git clone https://github.com/errea/First_Ruby_on_Rails_App.git
 
 gem bundle install
 ```
@@ -85,7 +85,7 @@ gem bundle install
 
 Contributions, issues and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/errea/Ruby_Capstone_Scrapper/issues).
+Feel free to check the [issues page](https://github.com/errea/First_Ruby_on_Rails_App/issues).
 
 ## Show your support
 
@@ -94,11 +94,6 @@ Give a ⭐️ if you like this project!
 ## Acknowledgments
 
 - Microverse
-- Nokogiri gem
-- HTTParty Parser
-- Udacity.com
-- Indeed.com
-- Remote.io
 
 ## 📝 License
 
